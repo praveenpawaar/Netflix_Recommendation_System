@@ -1,0 +1,83 @@
+# Prerequisites for Netflix Movie Recommendation System
+
+This document outlines the requirements and dependencies for setting up the Netflix Movie Recommendation System project.
+
+---
+
+**1. System Requirements**
+
+- **Operating System**: Windows, macOS, or Linux
+- **Processor**: Minimum 1 GHz or higher
+- **RAM**: At least 4GB
+- **Storage**: Minimum of 2GB free space for datasets and dependencies
+- **Python Version**: 3.7 or higher
+
+---
+
+**2. Libraries and Modules**
+
+The following Python libraries and modules are required for the project:
+
+1. **pandas**  
+   - For data manipulation and analysis.
+   - Installation:  
+     ```bash
+     pip install pandas
+     ```
+
+2. **numpy**  
+   - For numerical computations.
+   - Installation:  
+     ```bash
+     pip install numpy
+     ```
+
+3. **matplotlib**  
+   - For data visualization.
+   - Installation:  
+     ```bash
+     pip install matplotlib
+     ```
+
+4. **seaborn**  
+   - For enhanced statistical data visualization.
+   - Installation:  
+     ```bash
+     pip install seaborn
+     ```
+
+5. **scikit-learn**  
+   - For machine learning and cosine similarity computations.
+   - Installation:  
+     ```bash
+     pip install scikit-learn
+     ```
+
+6. **difflib**  
+   - For finding close matches in strings (no installation required, part of Python standard library).
+
+---
+
+**3. Dataset Requirements**
+
+- **Dataset File**: `netflix_titles.csv`  
+  - Ensure this file is available in the project directory. You can download it from [Netflix Movies Dataset on Kaggle](https://www.kaggle.com/shivamb/netflix-shows) or any similar source.  
+
+---
+**4. Tools**
+
+- **Python IDE/Text Editor**:  
+  Recommended options:  
+  - Visual Studio Code  
+  - Jupyter Notebook  
+  - PyCharm  
+
+- **Command Line/Terminal**:  
+  Required for running Python scripts and installing dependencies.
+
+---
+**5. Setup**
+
+1. Clone the project repository or download the code.
+   ```bash
+   git clone <repository_url>
